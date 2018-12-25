@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "frankie"
+version = "0.1.0"
+description = "Getting back all franck ferrand episodes"
+license = 'MIT'
+authors = ["Sara <sarabouaz@gmail.com>"]
+readme = 'README.md'
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tqdm = "^4.28"
+requests = "^2.21"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+fetch = "fetch:main"
