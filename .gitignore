@@ -1,0 +1,12 @@
+# python
+__pycache__
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes

@@ -3,7 +3,7 @@ import sys
 
 
 def main():
-    limit = 2
+    limit = 10
     page_number = 1
     dest_path = sys.argv[1] if len(sys.argv) > 1 else "downloads"
 
